@@ -1,38 +1,90 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="UTF-8">
-		<title>Restaurante Dois Primos</title>
-		<link rel="stylesheet" href="style.css">
-	</head>
+   <head>
+       <meta charset="UTF-8">
+       <meta name="viewport" content="width=device-width">
+       <title>Restaurante Dois Primos</title>
 
-	<body>
-		<header>
-			<h1 class="titulo-principal">Restaurante Dois Primos</h1>
-		</header>
-		<img id="banner" src="capadoisprimos.png">
-		<div class="principal">
-			<h2 class="titulo-centralizado">Sobre o Restaurante Dois Primos</h2>
-	 
-			<p>Localizado em um bairro histórico da cidade o <strong>Restaurante Dois Primos</strong> é uma homenagem aos dois primos que, apaixonados pela culinária, uniram forças para criar esse espaço único.
-			</p>
 
-			<p id="missao"><em>O cardápio do Dois Primos é: <strong> "é um verdadeiro festival de sabores"</strong>.</em></p>
+       <link rel="stylesheet" href="reset.css">
+       <link rel="stylesheet" href="style.css">
+       <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+   </head>
 
-			<p>Com pratos inspirados na cozinha internacional e com toques da culinária local, é possível encontrar uma ampla variedade de opções, desde deliciosos pratos de carne, frutos do mar frescos, massas artesanais até opções vegetarianas e veganas.</p>
-		</div>
 
-		<div class="beneficios">
-			<h3 class="titulo-centralizado">Benefícios</h3>
+   <body>
+       <header>
+           <div class="caixa">
+               <h1><img src="logodoisprimos.png"></h1>
 
-			<ul>
-				<li class="itens">Pratos Exclusivos</li>
-				<li class="itens">Espaço diferenciado</li>
-				<li class="itens">Localização</li>
-				<li class="itens">Profissionais Qualificados</li>
-			</ul>
 
-			<img src="pratosimg2.jpg" class="imagembeneficios">
-		</div>
-	</body>
+               <nav>
+                   <ul>
+                       <li><a href="index.html">Home</a></li>
+                       <li><a href="produtos.html">Produtos</a></li>
+                       <li><a href="contato.html">Contato</a></li>
+                   </ul>
+               </nav>
+           </div>
+       </header>
+
+
+       <img class="banner" src="capadoisprimos.png">
+
+
+       <main>
+           <section class="principal">
+               <h2 class="titulo-principal">Sobre o Restaurante Dois Primos</h2>
+
+
+               <img class="utensilios" src="imgcomida.jpeg" alt="Utensilios de um barbeiro.">
+       
+               <p>Localizado em um bairro histórico da cidade o <strong>Restaurante Dois Primos</strong> é uma homenagem aos dois primos que, apaixonados pela culinária, uniram forças para criar esse espaço único.</p>
+
+
+               <p id="missao"><em>O cardápio do Dois Primos é:<strong>"é um verdadeiro festival de sabores"</strong>.</em></p>
+      
+               <p>Com pratos inspirados na cozinha internacional e com toques da culinária local, é possível encontrar uma ampla variedade de opções, desde deliciosos pratos de carne, frutos do mar frescos, massas artesanais até opções vegetarianas e veganas.</p>
+           </section>
+
+
+           <section class="mapa">
+               <h3 class="titulo-principal">Nosso estabelecimento</h3>
+               <p>Nosso estabelecimento está localizado no coração da cidade.</p>
+
+
+               <div class="mapa-conteudo">
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.4483278365396!2d-46.63466568562861!3d-23.588249068469487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum!5e0!3m2!1spt-BR!2sbr!4v1568814489656!5m2!1spt-BR!2sbr" width="100%" height="300" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+               </div>
+           </section>
+
+
+           <section class="beneficios">
+               <h3 class="titulo-principal">Benefícios</h3>
+
+
+               <div class="conteudo-beneficios">
+                   <ul class="lista-beneficios">
+                       <li class="itens">Atendimento aos Clientes</li>
+                       <li class="itens">Espaço diferenciado</li>
+                       <li class="itens">Localização</li>
+                       <li class="itens">Profissionais Qualificados</li>
+                       <li class="itens">Pontualidade</li>
+                       <li class="itens">Limpeza</li>
+                   </ul><img src="pratosimg2.jpg" class="imagem-beneficios">
+               </div>
+
+
+               <div class="video">
+                   <iframe width="100%" height="315" src="https://www.youtube.com/watch?v=h-PfBxoMq_4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+               </div>
+           </section>
+       </main>
+
+
+       <footer>
+           <img src="logodoisprimos.png">
+           <p class="copyright">&copy; Copyright Restaurante Dois Primos - 2023</p>
+       </footer>
+   </body>
 </html>
